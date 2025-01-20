@@ -34,7 +34,7 @@ Depois de adicionar todos os nomes, você está pronto para realizar o sorteio. 
 - Exibir o nome do amigo sorteado na tela.
 - Remover o amigo sorteado da lista.
 
-<img src="imagensp_readme/sortear_nome.jpg" alt="Processo de sorteio" width=800">
+<img src="imagensp_readme/sortear_nome.jpg" alt="Processo de sorteio" width="800">
 
 O amigo sorteado será exibido na tela, assim como mostra o exemplo abaixo:
 
