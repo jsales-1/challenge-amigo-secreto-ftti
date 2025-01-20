@@ -21,7 +21,7 @@ function sortearAmigo(){
     let tamanho_lista = lista_amigos.length;
 
     if(tamanho_lista == 0){
-        alert("Lista de Amigos vazia. Por favor, insira algins nomes.")
+        alert("Lista de Amigos vazia. Por favor, insira alguns nomes.")
     }
     else{
         let indice_sorteado = Math.round(Math.random()*tamanho_lista-1);
