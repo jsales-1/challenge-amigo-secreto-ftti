@@ -19,14 +19,19 @@ function adicionarAmigo(){
 
 function sortearAmigo(){
     let tamanho_lista = lista_amigos.length;
-    let indice_sorteado = Math.round(Math.random()*tamanho_lista);
-    console.log(indice_sorteado);
-    let amigo_sorteado = lista_amigos[indice_sorteado];
-    let exibir_resultado = document.getElementById("resultado");
-    exibir_resultado.innerHTML = amigo_sorteado;
-    lista_amigos.splice(indice_sorteado,1);
-    exibir_lista_tela();
 
+    if(tamanho_lista == 0){
+        alert("Lista de Amigos vazia. Por favor, insira algins nomes.")
+    }
+    else{
+        let indice_sorteado = Math.round(Math.random()*tamanho_lista-1);
+        let amigo_sorteado = lista_amigos[indice_sorteado];
+        let exibir_resultado = document.getElementById("resultado");
+        exibir_resultado.innerHTML = amigo_sorteado;
+        lista_amigos.splice(indice_sorteado,1);
+        console.log(lista_amigos);
+    }
+    exibir_lista_tela();
 }
 
 function exibir_lista_tela(){
@@ -34,7 +39,6 @@ function exibir_lista_tela(){
     tela_amigos.innerHTML = ""; 
 
     for (let amigo of lista_amigos){
-        console.log(amigo);
         let item = document.createElement("li");
         item.textContent = amigo;
         tela_amigos.appendChild(item);
