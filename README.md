@@ -20,13 +20,13 @@ Navegue até a pasta `main` e abra o arquivo **`index.html`** no navegador de su
 ### 2. Adicionar Amigos à Lista
 Ao abrir a página, você encontrará um campo onde poderá adicionar os nomes de seus amigos. O processo é descrito abaixo:
 
-1. Digite o nome de um amigo no campo fornecido.
-2. Clique no botão **"Adicionar"** para incluir o nome na lista.
+<img src="imagensp_readme/adicionar_nome.jpg" alt="Processo de adição de amigos à lista" width="800">
+
+
+1. Digite o nome de um amigo no campo fornecido, conforme o passo 1 .
+2. Clique no botão **"Adicionar"** para incluir o nome na lista, como indica o passo 2.
 3. Repita os passos anteriores para cada amigo que desejar adicionar.
 
-Após adicionar os nomes, você poderá visualizar a lista completa diretamente na página, como mostrado na imagem abaixo:
-
-<img src="imagensp_readme/adicionar_nome.jpg" alt="Processo de adição de amigos à lista" width="600">
 
 ### 3. Realizar o Sorteio
 Depois de adicionar todos os nomes, você está pronto para realizar o sorteio. Basta clicar no botão **"Sortear"**. Cada sorteio irá:
@@ -34,12 +34,10 @@ Depois de adicionar todos os nomes, você está pronto para realizar o sorteio. 
 - Exibir o nome do amigo sorteado na tela.
 - Remover o amigo sorteado da lista.
 
-A imagem abaixo ilustra o processo:
+<img src="imagensp_readme/sortear_nome.jpg" alt="Processo de sorteio" width=800">
 
-<img src="imagensp_readme/sortear_amigo.jpg" alt="Processo de sorteio" width="600">
+O amigo sorteado será exibido na tela, assim como mostra o exemplo abaixo:
 
-### 4. Visualizar o Resultado do Sorteio
-O amigo sorteado será exibido na tela, conforme mostrado no exemplo abaixo:
+<img src="imagensp_readme/amigo_sorteado.png" alt="Amigo sorteado exibido" width="800">
 
-<img src="imagensp_readme/amigo_sorteado.jpg" alt="Amigo sorteado exibido" width="600">
-
+- Repita esse processo até que todos sejam sorteados.
